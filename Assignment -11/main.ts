@@ -1,5 +1,5 @@
-let names: string [] = ["Dania" , "Nialish" , "Dua" , "Mehak,"];
-console.log(names[0]);
-console.log(names[1]);
-console.log(names[2]);
-console.log(names[3]);
+let Names: string [] = ["Dania" , "Nialish" , "Dua" , "Mehak,"];
+console.log(Names[0]);
+console.log(Names[1]);
+console.log(Names[2]);
+console.log(Names[3]);
