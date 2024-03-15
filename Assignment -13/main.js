@@ -1,4 +1,8 @@
 // Array of modes of transportation
-var transportation = ["Rivo", "Audi", "Heavy Bike"];
+var transportation = ["Rivo", "Audi", "Lamborghini"];
+//message about transportations
+var message = "I wanna ride";
 // Print statement about each mode of transportation
-transportation.forEach(function (mode) { return console.log("I wanna buy ".concat(mode, ".")); });
+transportation.forEach(function (transportation) {
+    console.log(message + " " + transportation);
+});
