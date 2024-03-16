@@ -1,9 +1,13 @@
-// store a name in variable
-const LowerCase : string = "ARISHBA KHAN";
-console.log("LowerCase:",LowerCase.toLowerCase());
+//Store a name in variable
+let user_name: string = "arishba";
 
-const UpperCase : string = "arishba khan";
-console.log("UpperCase:",UpperCase.toUpperCase());
+//Print name in lower case
+console.log(user_name.toLowerCase());
 
-const Name : string = "arishba khan";
-console.log("TitleCase:",)
+//Print name in upper case
+console.log(user_name.toUpperCase());
+
+//Print name in title case
+console.log(user_name[0].toUpperCase() + user_name.slice(1).toLowerCase());
+
+export{}

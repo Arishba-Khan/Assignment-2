@@ -1,3 +1,4 @@
+//Question 16
 let guestlist : string[] = ["Zumar", "Aidam", "Haneen", "Selena"];
 
 //Inform about bigger dinner table
@@ -13,4 +14,16 @@ guestlist.forEach(guestlist => {
     console.log(`Hey ${guestlist}! \n You are invited to a dinner at my home.`);
 });
 
-export{}
+//Question 17
+
+//Apologize for cancel there invitation
+console.log("Sorry guyz only two of you can come");
+while (guestlist.length > 2) {
+    let removedguest = guestlist.pop()
+    console.log(`Sorry ${removedguest} we will meet again sometimes`);
+
+}
+
+guestlist.forEach(guestlist => {
+    console.log(`Dear ${guestlist}, you're stil invited to dinner.`);
+});
