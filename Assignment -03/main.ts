@@ -1,4 +1,4 @@
-//Store a name in variable
+//Store a name in variable.
 let user_name: string = "arishba";
 
 //Print name in lower case
