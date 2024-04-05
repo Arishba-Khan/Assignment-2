@@ -1,6 +1,8 @@
 #! /usr/bin/env node
-import inquirer from "inquirer";
-const answer = await inquirer.prompt([
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var inquirer_1 = require("inquirer");
+var answer = await inquirer_1.default.prompt([
     {
         type: 'number',
         name: 'num1',
@@ -18,13 +20,13 @@ const answer = await inquirer.prompt([
         choices: ['Add', 'Subtarct', 'Multiply', 'Divide']
     }
 ]);
-let result;
+var result;
 switch (answer.operator) {
     case 'Add':
         result = answer.num1 + answer.num2;
         console.log("The answer is " + result);
         break;
-    case 'Subtarct':
+    case 'Subtract':
         result = answer.num1 - answer.num2;
         console.log("The answer is " + result);
         break;
